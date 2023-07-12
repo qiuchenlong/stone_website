@@ -1,0 +1,181 @@
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+title = "BV-Stone"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Build a beautiful and simple website in minutes"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Some Person"
+  website = "yourwebsite.com"
+  email = "youremail@domain.com"
+  facebook = "username"
+  github = "username"
+  gitlab = "username"
+  bitbucket = "username"
+  twitter = "username"
+  reddit = "username"
+  linkedin = "username"
+  xing = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  snapchat = "username"
+  instagram = "username"
+  youtube = "user/username" # or channel/channelname
+  soundcloud = "username"
+  spotify = "username"
+  bandcamp = "username"
+  itchio = "username"
+  vk = "username"
+  paypal = "username"
+  telegram = "username"
+  500px = "username"
+  codepen = "username"
+  mastodon = "url"
+  kaggle = "username"
+  weibo = "username"
+  slack = "username"
+  medium = "username"
+  discord = "invite code (https://discord.gg/XXXXXXX)"
+  strava = "userid"
+
+[[menu.main]]
+    name = "Home"
+    url = "#home"
+    weight = 1
+
+[[menu.main]]
+    identifier = "service"
+    name = "Service"
+    weight = 2
+    url = "#service"
+
+[[menu.main]]
+    identifier = "features"
+    name = "Features"
+    weight = 2
+    url = "#features"
+
+[[menu.main]]
+    identifier = "products"
+    name = "Products"
+    weight = 2
+    url = "#products"
+
+[[menu.main]]
+    parent = "products"
+    name = "Slab"
+    url = "post/2023-07-04-slab"
+    weight = 1
+
+[[menu.main]]
+    parent = "products"
+    name = "Tile"
+    url = "post/2023-07-05-tile"
+    weight = 2
+
+[[menu.main]]
+    parent = "products"
+    name = "Countertop"
+    url = "post/2023-07-06-countertop"
+    weight = 3
+
+[[menu.main]]
+    parent = "products"
+    name = "Landscaping & outdoor stone"
+    url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    parent = "products"
+    name = "Decoration"
+    url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    parent = "products"
+    name = "Hot Products"
+    url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    parent = "products"
+    name = "New Products"
+    url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    name = "News"
+    url = "page/news/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 4
+
+
+
+#[languages]
+#  [languages.zh-CN] 
+#    contentDir = "content/zh-CN" # English
+#  [languages.en] 
+#    contentDir = "content/en" # English
+#  [languages.ja]
+#    contentDir = "content/ja" # Japanese
+
+
+
+
+[params.carouselTestimonials]
+    items = 4
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.CarouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
